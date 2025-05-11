@@ -1,0 +1,22 @@
+theme: jekyll-theme-minimal
+title: AI Adoption Research
+description: Comprehensive analysis of AI adoption strategies and platforms
+show_downloads: true
+google_analytics:
+markdown: kramdown
+plugins:
+  - jekyll-relative-links
+  - jekyll-mermaid
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - README.md
+
+# Mermaid diagram support
+mermaid:
+  src: 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js'
+
+# Custom styling
+sass:
+  sass_dir: assets/css
